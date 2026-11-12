@@ -1,3 +1,9 @@
+<!--
+  Based on the RotorS VI sensor hovering example from ETH Zurich ASL.
+  SPDX-License-Identifier: Apache-2.0
+  Modified for this project to use the Hummingbird and scut_uav by default.
+  See licenses/Apache-2.0.txt for the full license.
+-->
 <launch>
   <arg name="mav_name" default="hummingbird"/>
   <arg name="world_name" default="scut_uav"/>
